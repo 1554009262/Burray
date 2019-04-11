@@ -1,0 +1,353 @@
+*{margin: 0px;padding: 0px;}
+.top{
+	width: 100%;
+	background: #ffffff;
+	/*border: 1px solid yellow;*/
+	}
+.header{
+	width: 1060px;
+	margin: auto;
+	/*border:1px solid lawngreen;*/
+	
+}
+.header:after{
+	display:block;
+	content:" ";
+	clear: both;
+}
+
+.header img{
+	float: left;
+	display: block;
+}
+
+/*logo右边幅*/
+.logo_right{
+	float: right;
+	height: 100px;
+	width: 225px;
+	/*border: 1px solid red;*/
+	/*margin-right: 20px;*/
+}
+
+.top .header .logo_right .info{
+	/*margin-left: 20px;*/
+}
+.top .header .logo_right .info:after{
+	display: block;
+	clear: both;
+	content: " ";
+}
+
+.top .header .logo_right .info{
+	float: left;
+	height: 32px;
+	width: 130px;
+	margin-top: 23px;
+}
+.top .header .logo_right .info a{
+	text-decoration: none;
+	color:#5a5858;
+    font-size: 15px;
+}
+.top .header .logo_right .tubiao{
+	float: right;
+	margin-top: 10px;
+	display: block;
+}
+
+.top .header .logo_right .phone img{
+	display: inline-block;
+	margin-right:5px ;
+	margin-top:-5px ;
+}
+/*导航*/
+.center{
+	width: 100%;
+	height: 600px;
+	background: url(../img/top.png)no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	//relation:对象不可层叠,但将依据left,right,top,bottom等属性在正常文档流中偏移位置
+}
+.center .daohang{
+	width: 100%;
+	height: 50px;
+	background: url(../img/top_change.png)no-repeat;
+	background-size:100% 100% ;
+	opacity: 0.8;
+	z-index: 2;
+	/*注：opacity：设置透明度；z-index：层*/
+}
+.center .daohang .change{
+	width: 1200px;
+	margin: auto;
+	/*border: 1px solid deeppink;*/
+} 
+.center .daohang .change ul{
+	padding-top: 10px;
+}
+.center .daohang .change ul:after{
+	clear: both;
+	content: " ";
+	display: block;
+}
+.center .daohang .change ul li{
+	list-style: none;
+	float: left;
+	margin-left: 75px;
+}
+.center .daohang .change ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #038dd8;
+	font-family:微软雅黑;
+}
+.center .xiabu{
+	width: 100%;
+	height: 40px;
+	background: url(../img/xia.png)no-repeat;
+	position: absolute;
+    bottom:-28px;
+   /* border: 1px solid cyan;*/
+}
+
+/*首页*/
+.center2{
+	width: 1060px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.center2 ul{
+	margin-top: 50px;
+	display: flex;
+	/*justify-content：弹性布局，有五个值
+	 * justify-content: flex-start | flex-end | center | space-between | space-around
+	 * space-around：弹性项目平均分布在该行上，两边留有一半的间隔空间
+	 * */
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+.center2 ul:after{
+	content: "";
+	clear:both;
+	display: block;
+}
+.center2 ul li{
+    list-style: none;
+    width: 246px;
+    height: 296px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+	margin-left: 15px;
+}
+.center2 .img1{
+	margin-top: 35px;
+}
+.center2 .p1{
+	color:#1fa0f6;
+	font-size: 14px;
+}
+.center2 .p2{
+	color:#ccc;
+}
+.center2 .span1{
+	display: block;
+	width: 212px;
+	height: 40px;
+	margin-left: 15px;
+	font-size: 12px;
+	color:#ccc;
+}
+
+
+.center3{
+	width: 100%;
+	height: 810px;
+	background: url(../img/beijing_02.png) no-repeat ;
+	background-size: 100% 100%;
+}
+.center3 .tr3dowm{
+	width: 1200px;
+	height: 810px;
+	margin: 0 auto;
+	position: relative;
+}
+.center3 .tr3dowm .img2 {
+  width: 100%;
+  height: 380px;
+}
+.center3 .tr3dowm .img2 img{
+	display: block;
+	float: right;
+	margin-top: 100px;
+}
+.center3  .tr3dowm1{
+	float: right;
+	margin-top:50px;
+	margin-left: 15px;
+	
+}
+.center3  .tr3dowm1 span{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.center3  .tr3dowm1 .sp1 {
+   font-size: 16px;
+   font-family:微软雅黑;
+	color:#1fa0f6;
+}
+.center3  .tr3dowm1 .sp2{
+	 font-size: 12px;
+   font-family:微软雅黑;
+	color:#ccc;
+}
+
+
+
+.center4{
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+.center4 .ert4erm{
+	width: 1200px;
+	height: 227px;
+	border: 1px solid #ccc;
+	margin:  0 auto;
+	position: relative;
+}
+.center4 .ert4erm .dingleft{
+	position: absolute;
+	left: -5px;
+	top:25%;
+}
+.center4 .ert4erm .dingright{
+	position: absolute;
+	right: -8px;
+	top:25%;
+}
+.center4 .ert4erm ul{
+	margin-top: 35px;
+	margin-left: 45px;
+}
+.center4 .ert4erm ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.center4 .ert4erm ul li{
+	float: left;
+	list-style: none;
+	margin-left: 45px;
+}
+
+
+.center5{
+  width: 100%;
+  height: 400px;
+  background: url(../img/mahdj_02.png) no-repeat ;
+  background-size: 100% 100%;
+  position: absolute;
+}
+.center5 .er5dowm{
+  width: 100%;
+  height: 50px;
+  background: white;
+  opacity: 0.5;
+}
+.center5 .er5dowm .dowmshang{
+  width: 1200px;
+  height: 100%;
+  margin:0  auto;
+
+}
+.center5 .er5dowm .dowmshang ul{
+   margin-left: 270px;
+  padding-top: 15px;
+}
+.center5 .er5dowm .dowmshang ul:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.center5 .er5dowm .dowmshang ul li{
+  float: left;
+  list-style: none;
+  color: #0168b7;
+  margin-left: 15px;
+}
+.center5 .er5dowm .dowmshang ul li a{
+  text-decoration: none;
+}
+.center5 .er5up{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.center5 .er5up div{
+  width: 310px;
+  height: 300px;
+  
+  float: left;
+  margin-left: 85px;
+}
+.center5 .er5up div p{
+  color: white;
+}
+.center5 .er5up .upleft{
+
+
+}
+.center5 .er5up .upleft h3 {
+   color:white;
+   padding-bottom: 20px;
+}
+.center5 .er5up .upleft img{
+  
+
+}
+.center5 .er5up .upleft span{
+  display: block;
+  float:right;
+  width: 95px;
+  height: 60px;
+  color: white;
+  font-size: 15px;
+  margin-right: 115px;
+  margin-top:25px;  
+  line-height: 25px;
+}
+.center5 .er5up .upleft p{
+  font-size: 13px;
+  line-height: 20px;
+  margin-top:15px;
+}
+.center5 .er5up .upcenter h3{
+   color:white;
+   padding-bottom: 20px;
+}
+.center5 .er5up .upcenter p{
+  font-size: 13px;
+  line-height: 25px;
+}
+.center5 .er5up .upright h3{
+    color:white;
+   padding-bottom: 20px;
+}
+.center5 .er5up .upright p{
+  font-size: 13px;
+  line-height: 10px;
+  margin-top:15px;
+}
+.center5 .huojian{
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+
+
+
